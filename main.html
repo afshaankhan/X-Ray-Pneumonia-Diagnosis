@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5d3afcd826ce4206b67d80a4791fb62e</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="d91873db" class="cell markdown">
+<h2
+id="x-ray-predictive-analytics-for-pneumonia-diagnosis-utilizing-ai-and-big-data">X-Ray
+Predictive Analytics for Pneumonia Diagnosis Utilizing AI and Big
+Data</h2>
+</div>
+<div id="dd8cb115" class="cell markdown">
+<h3 id="importing-required-libraries">Importing required libraries</h3>
+</div>
+<div id="01fd33a2" class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow <span class="im">import</span> keras </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Activation, Conv2D, MaxPooling2D, Flatten, Dropout, BatchNormalization</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.optimizers <span class="im">import</span> Adam</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.callbacks <span class="im">import</span> EarlyStopping</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.preprocessing.image <span class="im">import</span> ImageDataGenerator</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> precision_recall_curve, roc_curve, accuracy_score, confusion_matrix, precision_score, recall_score</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> cv2 </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span></code></pre></div>
+</div>
+<div id="ad66327b" class="cell markdown">
+<h3 id="initiating-spark-session-for-image-pre-processing">Initiating
+spark session for image pre-processing</h3>
+</div>
+<div id="b1fda7f4" class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> io</span></code></pre></div>
+</div>
+<div id="5e5a1124" class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize Spark session</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder <span class="op">\</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    .appName(<span class="st">&quot;Image pre-Processing&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.master&quot;</span>, <span class="st">&quot;local[*]&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.hadoop.fs.defaultFS&quot;</span>, <span class="st">&quot;hdfs://localhost:9000&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.executor.memory&quot;</span>, <span class="st">&quot;4g&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.driver.memory&quot;</span>, <span class="st">&quot;4g&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.network.timeout&quot;</span>, <span class="st">&quot;600s&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.sql.broadcastTimeout&quot;</span>, <span class="st">&quot;1200&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.task.maxFailures&quot;</span>, <span class="st">&quot;10&quot;</span>) <span class="op">\</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    .getOrCreate()</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Define labels and image size</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">&#39;Normal&#39;</span>, <span class="st">&#39;Pneumonia&#39;</span>]</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>img_size <span class="op">=</span> <span class="dv">200</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_image(content):</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Opens an image and converts it to greyscale and resizes it</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> Image.<span class="bu">open</span>(io.BytesIO(content))</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> image.resize((img_size, img_size)).convert(<span class="st">&#39;L&#39;</span>)</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.array(image).reshape(img_size, img_size, <span class="dv">1</span>)</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_images(image_rdd, label):</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Filters files based on label and preprocesses them</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    filtered_images <span class="op">=</span> image_rdd.<span class="bu">filter</span>(<span class="kw">lambda</span> <span class="bu">file</span>: label <span class="kw">in</span> <span class="bu">file</span>[<span class="dv">0</span>])</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> filtered_images.<span class="bu">map</span>(<span class="kw">lambda</span> img: (label, preprocess_image(img[<span class="dv">1</span>])))</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> save_as_object_files(processed_images, output_dir):</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Saves processed images as object files in HDFS</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> label, images <span class="kw">in</span> processed_images.items():</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>        images.saveAsPickleFile(<span class="ss">f&quot;</span><span class="sc">{</span>output_dir<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>label<span class="sc">}</span><span class="ss">_new&quot;</span>)</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining paths for training, testing, and validation datasets</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>paths <span class="op">=</span> {</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;train&quot;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/train/*/*.jpeg&quot;</span>,</span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;test&quot;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/test/*/*.jpeg&quot;</span>,</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;val&quot;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/val/*/*.jpeg&quot;</span></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>processed_data <span class="op">=</span> {}</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> dtype, path <span class="kw">in</span> paths.items():</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>    image_rdd <span class="op">=</span> spark.sparkContext.binaryFiles(path)</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>    processed_images <span class="op">=</span> {label: process_images(image_rdd, label) <span class="cf">for</span> label <span class="kw">in</span> labels}</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>    save_as_object_files(processed_images, <span class="ss">f&quot;pro_</span><span class="sc">{</span>dtype<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>spark.stop()</span></code></pre></div>
+</div>
+<div id="283885b6" class="cell markdown">
+<h3 id="displaying-sample-image-from-each-label">Displaying Sample image
+from each label</h3>
+</div>
+<div id="996136f0" class="cell code" data-execution_count="7"
+data-scrolled="true">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initializing Spark session for displaying image</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder <span class="op">\</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    .appName(<span class="st">&quot;Image Display&quot;</span>) <span class="op">\</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.master&quot;</span>, <span class="st">&quot;local[*]&quot;</span>) <span class="op">\</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.hadoop.fs.defaultFS&quot;</span>, <span class="st">&quot;hdfs://localhost:9000&quot;</span>) <span class="op">\</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    .getOrCreate()</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_and_display_images(directory, label, num_images<span class="op">=</span><span class="dv">2</span>):</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    path <span class="op">=</span> <span class="ss">f&quot;</span><span class="sc">{</span>directory<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>label<span class="sc">}</span><span class="ss">_new&quot;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Loading the images</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    rdd <span class="op">=</span> spark.sparkContext.pickleFile(path)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Taking a few images for display</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    images <span class="op">=</span> rdd.take(num_images)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Displays the images</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>, num_images, figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, img <span class="kw">in</span> <span class="bu">enumerate</span>(images):</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>        axs[i].imshow(img[<span class="dv">1</span>].squeeze(), cmap<span class="op">=</span><span class="st">&#39;gray&#39;</span>)  <span class="co"># img[1] because it&#39;s a tuple (label, image_array)</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>        axs[i].set_title(<span class="ss">f&quot;</span><span class="sc">{</span>label<span class="sc">}</span><span class="ss"> Example </span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        axs[i].axis(<span class="st">&#39;off&#39;</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Specifying the base directory where images are stored</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>base_directory <span class="op">=</span> <span class="st">&quot;hdfs://localhost:9000/user/affuk/pro_train&quot;</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying images for both labels</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>load_and_display_images(base_directory, <span class="st">&quot;Normal&quot;</span>)</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>load_and_display_images(base_directory, <span class="st">&quot;Pneumonia&quot;</span>)</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>spark.stop()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_66180b5722294b6493ed5c9b89df36af/6dc40a7472cb99c9ce01b6c0ab878bd934ffc292.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_66180b5722294b6493ed5c9b89df36af/6645af9f85fb47f11860ddbe4e942c5bb6985443.png" /></p>
+</div>
+</div>
+<div id="a274b506" class="cell markdown">
+<h3 id="image-processing">Image processing</h3>
+</div>
+<div id="2ac1c0a4" class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize Spark session</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder <span class="op">\</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    .appName(<span class="st">&quot;Image Processing&quot;</span>) <span class="op">\</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.master&quot;</span>, <span class="st">&quot;local[*]&quot;</span>) <span class="op">\</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    .config(<span class="st">&quot;spark.hadoop.fs.defaultFS&quot;</span>, <span class="st">&quot;hdfs://localhost:9000&quot;</span>) <span class="op">\</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    .getOrCreate()</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_image(content):</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> Image.<span class="bu">open</span>(io.BytesIO(content))</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> image.resize((<span class="dv">200</span>, <span class="dv">200</span>)).convert(<span class="st">&#39;L&#39;</span>)  <span class="co"># Resizng and convert to grayscale</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.array(image).reshape(<span class="dv">200</span>, <span class="dv">200</span>, <span class="dv">1</span>)  <span class="co"># Reshaping for consistency</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_and_process_data(path, label):</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    image_rdd <span class="op">=</span> spark.sparkContext.binaryFiles(path)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    processed_images <span class="op">=</span> image_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> file_content: preprocess_image(file_content[<span class="dv">1</span>])).collect()</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> [<span class="dv">0</span> <span class="cf">if</span> label <span class="op">==</span> <span class="st">&#39;Normal&#39;</span> <span class="cf">else</span> <span class="dv">1</span>] <span class="op">*</span> <span class="bu">len</span>(processed_images)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.array(processed_images), np.array(labels)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining paths for datasets</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>dataset_paths <span class="op">=</span> {</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Normal&#39;</span>: {</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;train&#39;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/train/Normal/*.jpeg&quot;</span>,</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;val&#39;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/val/Normal/*.jpeg&quot;</span>,</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;test&#39;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/test/Normal/*.jpeg&quot;</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Pneumonia&#39;</span>: {</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;train&#39;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/train/Pneumonia/*.jpeg&quot;</span>,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;val&#39;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/val/Pneumonia/*.jpeg&quot;</span>,</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;test&#39;</span>: <span class="st">&quot;hdfs://localhost:9000/xrays/test/Pneumonia/*.jpeg&quot;</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Load and process all datasets</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>X_train_normal, y_train_normal <span class="op">=</span> load_and_process_data(dataset_paths[<span class="st">&#39;Normal&#39;</span>][<span class="st">&#39;train&#39;</span>], <span class="st">&#39;Normal&#39;</span>)</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>X_train_pneumonia, y_train_pneumonia <span class="op">=</span> load_and_process_data(dataset_paths[<span class="st">&#39;Pneumonia&#39;</span>][<span class="st">&#39;train&#39;</span>], <span class="st">&#39;Pneumonia&#39;</span>)</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Upsampling the Normal class</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>upsample_size <span class="op">=</span> <span class="bu">len</span>(y_train_pneumonia) <span class="op">-</span> <span class="bu">len</span>(y_train_normal)</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>upsampled_normal_indices <span class="op">=</span> np.random.choice(np.arange(<span class="bu">len</span>(y_train_normal)), size<span class="op">=</span>upsample_size, replace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>X_train_normal_upsampled <span class="op">=</span> X_train_normal[upsampled_normal_indices]</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>y_train_normal_upsampled <span class="op">=</span> y_train_normal[upsampled_normal_indices]</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Combining and shuffling the training data</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> np.vstack([X_train_normal, X_train_pneumonia, X_train_normal_upsampled])</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> np.hstack([y_train_normal, y_train_pneumonia, y_train_normal_upsampled])</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Shuffling the dataset</span></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>shuffle_indices <span class="op">=</span> np.random.permutation(<span class="bu">len</span>(X_train))</span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> X_train[shuffle_indices]</span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> y_train[shuffle_indices]</span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="co"># Loading validation and test data</span></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>X_val, y_val <span class="op">=</span> np.vstack([</span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Normal&#39;</span>][<span class="st">&#39;val&#39;</span>], <span class="st">&#39;Normal&#39;</span>)[<span class="dv">0</span>],</span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Pneumonia&#39;</span>][<span class="st">&#39;val&#39;</span>], <span class="st">&#39;Pneumonia&#39;</span>)[<span class="dv">0</span>]</span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>]), np.hstack([</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Normal&#39;</span>][<span class="st">&#39;val&#39;</span>], <span class="st">&#39;Normal&#39;</span>)[<span class="dv">1</span>],</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Pneumonia&#39;</span>][<span class="st">&#39;val&#39;</span>], <span class="st">&#39;Pneumonia&#39;</span>)[<span class="dv">1</span>]</span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>X_test, y_test <span class="op">=</span> np.vstack([</span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Normal&#39;</span>][<span class="st">&#39;test&#39;</span>], <span class="st">&#39;Normal&#39;</span>)[<span class="dv">0</span>],</span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Pneumonia&#39;</span>][<span class="st">&#39;test&#39;</span>], <span class="st">&#39;Pneumonia&#39;</span>)[<span class="dv">0</span>]</span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>]), np.hstack([</span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Normal&#39;</span>][<span class="st">&#39;test&#39;</span>], <span class="st">&#39;Normal&#39;</span>)[<span class="dv">1</span>],</span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>    load_and_process_data(dataset_paths[<span class="st">&#39;Pneumonia&#39;</span>][<span class="st">&#39;test&#39;</span>], <span class="st">&#39;Pneumonia&#39;</span>)[<span class="dv">1</span>]</span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalizing the data</span></span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>X_train, X_val, X_test <span class="op">=</span> X_train <span class="op">/</span> <span class="fl">255.0</span>, X_val <span class="op">/</span> <span class="fl">255.0</span>, X_test <span class="op">/</span> <span class="fl">255.0</span></span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a><span class="co"># Merging training and validation data as validation data is too small</span></span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>X_train, y_train <span class="op">=</span> np.vstack([X_train, X_val]), np.hstack([y_train, y_val])</span>
+<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>X_train, X_val, y_train, y_val <span class="op">=</span> train_test_split(X_train, y_train, test_size<span class="op">=</span><span class="fl">0.10</span>, random_state<span class="op">=</span><span class="dv">32</span>)</span>
+<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a>spark.stop()</span>
+<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a><span class="co"># Output the shape of datasets to confirm</span></span>
+<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training data shape:&quot;</span>, X_train.shape, y_train.shape)</span>
+<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Validation data shape:&quot;</span>, X_val.shape, y_val.shape)</span>
+<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test data shape:&quot;</span>, X_test.shape, y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training data shape: (6989, 200, 200, 1) (6989,)
+Validation data shape: (777, 200, 200, 1) (777,)
+Test data shape: (624, 200, 200, 1) (624,)
+</code></pre>
+</div>
+</div>
+<div id="c2dd0f19" class="cell markdown">
+<h3 id="data-augmentation">Data Augmentation</h3>
+</div>
+<div id="7f1c066b" class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting up data augmentation configuration</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>datagen <span class="op">=</span> ImageDataGenerator(</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    rotation_range<span class="op">=</span><span class="dv">30</span>,  <span class="co"># Allows random rotations up to 30 degrees</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    zoom_range<span class="op">=</span><span class="fl">0.05</span>,  <span class="co"># Allows random zoom up to 5%</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    width_shift_range<span class="op">=</span><span class="fl">0.05</span>,  <span class="co"># Allows random horizontal shifts up to 5%</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    height_shift_range<span class="op">=</span><span class="fl">0.05</span>,  <span class="co"># Allows random vertical shifts up to 5%</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    horizontal_flip<span class="op">=</span><span class="va">True</span>,  <span class="co"># Allows horizontal flipping</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    fill_mode<span class="op">=</span><span class="st">&#39;nearest&#39;</span>  <span class="co"># Fills in new pixels after a rotation or width/height shift</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply the augmentation to the training data</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>datagen.fit(X_train)</span></code></pre></div>
+</div>
+<div id="f168bce0" class="cell markdown">
+<h3 id="cnn">CNN</h3>
+</div>
+<div id="f99281cc" class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.regularizers <span class="im">import</span> l2</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the CNN model architecture with some modifications</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential([</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    Conv2D(<span class="dv">32</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(<span class="dv">200</span>, <span class="dv">200</span>, <span class="dv">1</span>), padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    BatchNormalization(),</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    MaxPooling2D(<span class="dv">2</span>, <span class="dv">2</span>),</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    Conv2D(<span class="dv">64</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    BatchNormalization(),</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    MaxPooling2D(<span class="dv">2</span>, <span class="dv">2</span>),</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    Conv2D(<span class="dv">128</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    BatchNormalization(),</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    MaxPooling2D(<span class="dv">2</span>, <span class="dv">2</span>),</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    Conv2D(<span class="dv">256</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    BatchNormalization(),</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>    MaxPooling2D(<span class="dv">2</span>, <span class="dv">2</span>),</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>    Flatten(),</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">256</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, kernel_regularizer<span class="op">=</span>l2(<span class="fl">0.001</span>)),</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>    Dropout(<span class="fl">0.5</span>),</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">128</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, kernel_regularizer<span class="op">=</span>l2(<span class="fl">0.001</span>)),</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>    Dropout(<span class="fl">0.5</span>),</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>)</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Compiling the model with a potentially lower learning rate</span></span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.optimizers <span class="im">import</span> Adam</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span>Adam(learning_rate<span class="op">=</span><span class="fl">0.0001</span>), </span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>              loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, </span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>              metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\affuk\anaconda3\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:99: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(
+</code></pre>
+</div>
+</div>
+<div id="9cf40aba" class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>model.summary()</span></code></pre></div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold">Model: "sequential"</span>
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃<span style="font-weight: bold"> Layer (type)                         </span>┃<span style="font-weight: bold"> Output Shape                </span>┃<span style="font-weight: bold">         Param # </span>┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ conv2d (<span style="color: #0087ff; text-decoration-color: #0087ff">Conv2D</span>)                      │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">200</span>, <span style="color: #00af00; text-decoration-color: #00af00">200</span>, <span style="color: #00af00; text-decoration-color: #00af00">32</span>)        │             <span style="color: #00af00; text-decoration-color: #00af00">320</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization                  │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">200</span>, <span style="color: #00af00; text-decoration-color: #00af00">200</span>, <span style="color: #00af00; text-decoration-color: #00af00">32</span>)        │             <span style="color: #00af00; text-decoration-color: #00af00">128</span> │
+│ (<span style="color: #0087ff; text-decoration-color: #0087ff">BatchNormalization</span>)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ max_pooling2d (<span style="color: #0087ff; text-decoration-color: #0087ff">MaxPooling2D</span>)         │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">100</span>, <span style="color: #00af00; text-decoration-color: #00af00">100</span>, <span style="color: #00af00; text-decoration-color: #00af00">32</span>)        │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ conv2d_1 (<span style="color: #0087ff; text-decoration-color: #0087ff">Conv2D</span>)                    │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">100</span>, <span style="color: #00af00; text-decoration-color: #00af00">100</span>, <span style="color: #00af00; text-decoration-color: #00af00">64</span>)        │          <span style="color: #00af00; text-decoration-color: #00af00">18,496</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_1                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">100</span>, <span style="color: #00af00; text-decoration-color: #00af00">100</span>, <span style="color: #00af00; text-decoration-color: #00af00">64</span>)        │             <span style="color: #00af00; text-decoration-color: #00af00">256</span> │
+│ (<span style="color: #0087ff; text-decoration-color: #0087ff">BatchNormalization</span>)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ max_pooling2d_1 (<span style="color: #0087ff; text-decoration-color: #0087ff">MaxPooling2D</span>)       │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">50</span>, <span style="color: #00af00; text-decoration-color: #00af00">50</span>, <span style="color: #00af00; text-decoration-color: #00af00">64</span>)          │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ conv2d_2 (<span style="color: #0087ff; text-decoration-color: #0087ff">Conv2D</span>)                    │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">50</span>, <span style="color: #00af00; text-decoration-color: #00af00">50</span>, <span style="color: #00af00; text-decoration-color: #00af00">128</span>)         │          <span style="color: #00af00; text-decoration-color: #00af00">73,856</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_2                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">50</span>, <span style="color: #00af00; text-decoration-color: #00af00">50</span>, <span style="color: #00af00; text-decoration-color: #00af00">128</span>)         │             <span style="color: #00af00; text-decoration-color: #00af00">512</span> │
+│ (<span style="color: #0087ff; text-decoration-color: #0087ff">BatchNormalization</span>)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ max_pooling2d_2 (<span style="color: #0087ff; text-decoration-color: #0087ff">MaxPooling2D</span>)       │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">25</span>, <span style="color: #00af00; text-decoration-color: #00af00">25</span>, <span style="color: #00af00; text-decoration-color: #00af00">128</span>)         │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ conv2d_3 (<span style="color: #0087ff; text-decoration-color: #0087ff">Conv2D</span>)                    │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">25</span>, <span style="color: #00af00; text-decoration-color: #00af00">25</span>, <span style="color: #00af00; text-decoration-color: #00af00">256</span>)         │         <span style="color: #00af00; text-decoration-color: #00af00">295,168</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_3                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">25</span>, <span style="color: #00af00; text-decoration-color: #00af00">25</span>, <span style="color: #00af00; text-decoration-color: #00af00">256</span>)         │           <span style="color: #00af00; text-decoration-color: #00af00">1,024</span> │
+│ (<span style="color: #0087ff; text-decoration-color: #0087ff">BatchNormalization</span>)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ max_pooling2d_3 (<span style="color: #0087ff; text-decoration-color: #0087ff">MaxPooling2D</span>)       │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">12</span>, <span style="color: #00af00; text-decoration-color: #00af00">12</span>, <span style="color: #00af00; text-decoration-color: #00af00">256</span>)         │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ flatten (<span style="color: #0087ff; text-decoration-color: #0087ff">Flatten</span>)                    │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">36864</span>)               │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                        │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">256</span>)                 │       <span style="color: #00af00; text-decoration-color: #00af00">9,437,440</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (<span style="color: #0087ff; text-decoration-color: #0087ff">Dropout</span>)                    │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">256</span>)                 │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_1 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                      │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">128</span>)                 │          <span style="color: #00af00; text-decoration-color: #00af00">32,896</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_1 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dropout</span>)                  │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">128</span>)                 │               <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_2 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                      │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">1</span>)                   │             <span style="color: #00af00; text-decoration-color: #00af00">129</span> │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Total params: </span><span style="color: #00af00; text-decoration-color: #00af00">9,860,225</span> (37.61 MB)
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">9,859,265</span> (37.61 MB)
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Non-trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">960</span> (3.75 KB)
+</pre>
+
+</div>
+</div>
+<div id="d480535b" class="cell markdown">
+<h3 id="training-the-model">Training the model</h3>
+</div>
+<div id="48ce720f" class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.callbacks <span class="im">import</span> EarlyStopping, ModelCheckpoint, ReduceLROnPlateau</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Callback for early stopping</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>early_stopping <span class="op">=</span> EarlyStopping(</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    patience<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    restore_best_weights<span class="op">=</span><span class="va">True</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Callback for saving the best model during training</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>model_checkpoint <span class="op">=</span> ModelCheckpoint(</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;best_model.keras&#39;</span>,  <span class="co"># Updated file extension to .keras</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>,</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    save_best_only<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Callback for reducing the learning rate when a metric has stopped improving</span></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>reduce_lr <span class="op">=</span> ReduceLROnPlateau(</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>    monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>,</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    factor<span class="op">=</span><span class="fl">0.2</span>,</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>    patience<span class="op">=</span><span class="dv">5</span>,</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    min_lr<span class="op">=</span><span class="fl">1e-6</span></span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate class weights</span></span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.utils.class_weight <span class="im">import</span> compute_class_weight</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>class_weights <span class="op">=</span> compute_class_weight(</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>    class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>,</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>    classes<span class="op">=</span>np.unique(y_train),</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span>y_train</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>class_weights_dict <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">enumerate</span>(class_weights))</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model using the data generator</span></span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model.fit(</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>    datagen.flow(X_train, y_train, batch_size<span class="op">=</span><span class="dv">32</span>),</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>    validation_data<span class="op">=</span>(X_val, y_val),</span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>    epochs<span class="op">=</span><span class="dv">20</span>,  </span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>    callbacks<span class="op">=</span>[early_stopping, model_checkpoint, reduce_lr],</span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a>    class_weight<span class="op">=</span>class_weights_dict, </span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="dv">2</span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/20
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\affuk\anaconda3\Lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>
+Epoch 1: val_loss improved from inf to 10.98748, saving model to best_model.keras
+219/219 - 259s - 1s/step - accuracy: 0.8466 - loss: 1.0994 - val_accuracy: 0.5122 - val_loss: 10.9875 - learning_rate: 1.0000e-04
+Epoch 2/20
+
+Epoch 2: val_loss improved from 10.98748 to 4.29818, saving model to best_model.keras
+219/219 - 256s - 1s/step - accuracy: 0.9073 - loss: 0.8630 - val_accuracy: 0.5122 - val_loss: 4.2982 - learning_rate: 1.0000e-04
+Epoch 3/20
+
+Epoch 3: val_loss improved from 4.29818 to 0.70560, saving model to best_model.keras
+219/219 - 256s - 1s/step - accuracy: 0.9250 - loss: 0.7662 - val_accuracy: 0.9434 - val_loss: 0.7056 - learning_rate: 1.0000e-04
+Epoch 4/20
+
+Epoch 4: val_loss improved from 0.70560 to 0.59899, saving model to best_model.keras
+219/219 - 266s - 1s/step - accuracy: 0.9326 - loss: 0.6986 - val_accuracy: 0.9511 - val_loss: 0.5990 - learning_rate: 1.0000e-04
+Epoch 5/20
+
+Epoch 5: val_loss improved from 0.59899 to 0.55653, saving model to best_model.keras
+219/219 - 264s - 1s/step - accuracy: 0.9415 - loss: 0.6364 - val_accuracy: 0.9601 - val_loss: 0.5565 - learning_rate: 1.0000e-04
+Epoch 6/20
+
+Epoch 6: val_loss improved from 0.55653 to 0.51497, saving model to best_model.keras
+219/219 - 261s - 1s/step - accuracy: 0.9379 - loss: 0.5975 - val_accuracy: 0.9537 - val_loss: 0.5150 - learning_rate: 1.0000e-04
+Epoch 7/20
+
+Epoch 7: val_loss did not improve from 0.51497
+219/219 - 258s - 1s/step - accuracy: 0.9456 - loss: 0.5370 - val_accuracy: 0.9331 - val_loss: 0.5798 - learning_rate: 1.0000e-04
+Epoch 8/20
+
+Epoch 8: val_loss improved from 0.51497 to 0.42568, saving model to best_model.keras
+219/219 - 256s - 1s/step - accuracy: 0.9498 - loss: 0.4973 - val_accuracy: 0.9640 - val_loss: 0.4257 - learning_rate: 1.0000e-04
+Epoch 9/20
+
+Epoch 9: val_loss did not improve from 0.42568
+219/219 - 253s - 1s/step - accuracy: 0.9561 - loss: 0.4496 - val_accuracy: 0.9447 - val_loss: 0.4900 - learning_rate: 1.0000e-04
+Epoch 10/20
+
+Epoch 10: val_loss improved from 0.42568 to 0.36212, saving model to best_model.keras
+219/219 - 255s - 1s/step - accuracy: 0.9493 - loss: 0.4350 - val_accuracy: 0.9717 - val_loss: 0.3621 - learning_rate: 1.0000e-04
+Epoch 11/20
+
+Epoch 11: val_loss improved from 0.36212 to 0.34162, saving model to best_model.keras
+219/219 - 258s - 1s/step - accuracy: 0.9569 - loss: 0.3971 - val_accuracy: 0.9678 - val_loss: 0.3416 - learning_rate: 1.0000e-04
+Epoch 12/20
+
+Epoch 12: val_loss did not improve from 0.34162
+219/219 - 259s - 1s/step - accuracy: 0.9584 - loss: 0.3596 - val_accuracy: 0.9434 - val_loss: 0.4144 - learning_rate: 1.0000e-04
+Epoch 13/20
+
+Epoch 13: val_loss improved from 0.34162 to 0.29681, saving model to best_model.keras
+219/219 - 258s - 1s/step - accuracy: 0.9581 - loss: 0.3394 - val_accuracy: 0.9704 - val_loss: 0.2968 - learning_rate: 1.0000e-04
+Epoch 14/20
+
+Epoch 14: val_loss improved from 0.29681 to 0.28163, saving model to best_model.keras
+219/219 - 256s - 1s/step - accuracy: 0.9579 - loss: 0.3245 - val_accuracy: 0.9704 - val_loss: 0.2816 - learning_rate: 1.0000e-04
+Epoch 15/20
+
+Epoch 15: val_loss improved from 0.28163 to 0.25823, saving model to best_model.keras
+219/219 - 265s - 1s/step - accuracy: 0.9627 - loss: 0.2976 - val_accuracy: 0.9704 - val_loss: 0.2582 - learning_rate: 1.0000e-04
+Epoch 16/20
+
+Epoch 16: val_loss improved from 0.25823 to 0.22746, saving model to best_model.keras
+219/219 - 274s - 1s/step - accuracy: 0.9687 - loss: 0.2654 - val_accuracy: 0.9755 - val_loss: 0.2275 - learning_rate: 1.0000e-04
+Epoch 17/20
+
+Epoch 17: val_loss did not improve from 0.22746
+219/219 - 275s - 1s/step - accuracy: 0.9687 - loss: 0.2537 - val_accuracy: 0.9717 - val_loss: 0.2303 - learning_rate: 1.0000e-04
+Epoch 18/20
+
+Epoch 18: val_loss did not improve from 0.22746
+219/219 - 255s - 1s/step - accuracy: 0.9657 - loss: 0.2406 - val_accuracy: 0.9292 - val_loss: 0.3614 - learning_rate: 1.0000e-04
+Epoch 19/20
+
+Epoch 19: val_loss did not improve from 0.22746
+219/219 - 263s - 1s/step - accuracy: 0.9707 - loss: 0.2244 - val_accuracy: 0.9601 - val_loss: 0.2423 - learning_rate: 1.0000e-04
+Epoch 20/20
+
+Epoch 20: val_loss improved from 0.22746 to 0.22445, saving model to best_model.keras
+219/219 - 260s - 1s/step - accuracy: 0.9672 - loss: 0.2140 - val_accuracy: 0.9588 - val_loss: 0.2245 - learning_rate: 1.0000e-04
+Restoring model weights from the end of the best epoch: 20.
+</code></pre>
+</div>
+</div>
+<div id="7f0220a2" class="cell markdown">
+<h3 id="evaluating-training-model">Evaluating Training Model</h3>
+</div>
+<div id="63faaef4" class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating Precision and Recall values</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>precisions, recalls, thresholds <span class="op">=</span> precision_recall_curve(y_test, predictions)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting Precision-Recall Curve</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">5</span>))</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>plt.plot(recalls, precisions, marker<span class="op">=</span><span class="st">&#39;.&#39;</span>, label<span class="op">=</span><span class="st">&#39;Precision-Recall curve&#39;</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Recall&#39;</span>)</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Precision&#39;</span>)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Precision-Recall curve&#39;</span>)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>20/20 ━━━━━━━━━━━━━━━━━━━━ 4s 179ms/step
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>&lt;matplotlib.legend.Legend at 0x259bc090d10&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_66180b5722294b6493ed5c9b89df36af/bf641a4492eb69a62fda61aca3bf8045c26c22c9.png" /></p>
+</div>
+</div>
+<div id="230bd58a" class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> auc</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculating the FPR and TPR for the ROC curve</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>fpr, tpr, roc_thresholds <span class="op">=</span> roc_curve(y_test, predictions)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>roc_auc <span class="op">=</span> auc(fpr, tpr)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting ROC Curve</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>plt.plot(fpr, tpr, color<span class="op">=</span><span class="st">&#39;orange&#39;</span>, label<span class="op">=</span><span class="ss">f&#39;ROC curve (area = </span><span class="sc">{</span>roc_auc<span class="sc">:.2f}</span><span class="ss">)&#39;</span>)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">1</span>], [<span class="dv">0</span>, <span class="dv">1</span>], color<span class="op">=</span><span class="st">&#39;darkblue&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;False Positive Rate&#39;</span>)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;True Positive Rate&#39;</span>)</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Receiver Operating Characteristic (ROC) Curve&#39;</span>)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_66180b5722294b6493ed5c9b89df36af/572508a5fd7b9ed7b27400615e0c404d01a2f087.png" /></p>
+</div>
+</div>
+<div id="829e7652" class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating binary predictions based on the probability output and a threshold</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>binary_predictions <span class="op">=</span> (predictions <span class="op">&gt;</span> <span class="fl">0.5</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating the confusion matrix</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> confusion_matrix(y_test, binary_predictions)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>class_labels <span class="op">=</span> [<span class="st">&#39;Normal&#39;</span>, <span class="st">&#39;Pneumonia&#39;</span>]</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the confusion matrix</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>sns.heatmap(cm, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&#39;d&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>, xticklabels<span class="op">=</span>class_labels, yticklabels<span class="op">=</span>class_labels)</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Confusion Matrix&#39;</span>)</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicted Label&#39;</span>)</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;True Label&#39;</span>)</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_66180b5722294b6493ed5c9b89df36af/8f604db9cf65792f5a23b8091fdadb4bcb8bb635.png" /></p>
+</div>
+</div>
+<div id="af17f0d7" class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, binary_predictions, target_names<span class="op">=</span>class_labels))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+      Normal       0.94      0.59      0.73       234
+   Pneumonia       0.80      0.98      0.88       390
+
+    accuracy                           0.83       624
+   macro avg       0.87      0.79      0.80       624
+weighted avg       0.85      0.83      0.82       624
+
+</code></pre>
+</div>
+</div>
+<div id="f2356c83" class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>train_loss, train_accuracy <span class="op">=</span> model.evaluate(X_train, y_train, verbose<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training Accuracy: </span><span class="sc">{</span>train_accuracy<span class="op">*</span><span class="dv">100</span><span class="sc">:.2f}</span><span class="ss">%&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>219/219 ━━━━━━━━━━━━━━━━━━━━ 36s 162ms/step - accuracy: 0.9769 - loss: 0.1918
+Training Accuracy: 97.58%
+</code></pre>
+</div>
+</div>
+<div id="88ceb728" class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Accuracy on testing set:&#39;</span>, accuracy_score(binary_predictions, y_test))</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Precision on testing set:&#39;</span>, precision_score(binary_predictions, y_test))</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Recall on testing set:&#39;</span>, recall_score(binary_predictions, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy on testing set: 0.8333333333333334
+Precision on testing set: 0.9769230769230769
+Recall on testing set: 0.8004201680672269
+</code></pre>
+</div>
+</div>
+<div id="563d2ff0" class="cell markdown">
+<h3 id="printing-25-sample-predictions">Printing 25 sample
+predictions</h3>
+</div>
+<div id="53522438" class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> keras.models.load_model(<span class="st">&#39;pneumonia_detection_v1.keras&#39;</span>)</span></code></pre></div>
+</div>
+<div id="437ab0c6" class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Converting probabilities to binary predictions assuming binary classification with a threshold of 0.5</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>binary_predictions <span class="op">=</span> (predictions <span class="op">&gt;</span> <span class="fl">0.5</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Labels for your binary classes</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">&#39;Normal&#39;</span>, <span class="st">&#39;Pneumonia&#39;</span>]</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>img_size <span class="op">=</span> <span class="dv">200</span> </span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualizing the images and their predicted labels</span></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">10</span>))</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">25</span>): </span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">5</span>, <span class="dv">5</span>, i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>    plt.xticks([])</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>    plt.yticks([])</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">False</span>)</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Reshape and display the image, ensure X_train is used if it&#39;s meant to be the training set</span></span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>    plt.imshow(X_test[i].reshape(img_size, img_size), cmap<span class="op">=</span><span class="st">&#39;gray&#39;</span>)</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check if prediction matches the true label</span></span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> binary_predictions[i] <span class="op">==</span> y_test[i]:</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(labels[binary_predictions[i][<span class="dv">0</span>]], color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(labels[binary_predictions[i][<span class="dv">0</span>]], color<span class="op">=</span><span class="st">&#39;red&#39;</span>)</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>20/20 ━━━━━━━━━━━━━━━━━━━━ 4s 177ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_66180b5722294b6493ed5c9b89df36af/b17e1b5eeac26b2d7dec1fa542ba65e9c654661c.png" /></p>
+</div>
+</div>
+<div id="f9b8eec2" class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>model.save(<span class="st">&#39;pneumonia_detection_v1.keras&#39;</span>)</span></code></pre></div>
+</div>
+<div id="ebdf7300" class="cell markdown">
+<h3 id="predicting-with-new-images">Predicting with new images</h3>
+</div>
+<div id="4d1c25e8" class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_image(image_path):</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(image_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>        content <span class="op">=</span> f.read()</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> Image.<span class="bu">open</span>(io.BytesIO(content))</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> image.resize((<span class="dv">200</span>, <span class="dv">200</span>)).convert(<span class="st">&#39;L&#39;</span>)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>    image_array <span class="op">=</span> np.array(image) <span class="op">/</span> <span class="fl">255.0</span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>    image_array <span class="op">=</span> image_array.reshape((<span class="dv">1</span>, <span class="dv">200</span>, <span class="dv">200</span>, <span class="dv">1</span>))  <span class="co"># Reshape for model (adding batch dimension)</span></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> image_array</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict_image(image_path, model):</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>    processed_image <span class="op">=</span> preprocess_image(image_path)</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>    prediction <span class="op">=</span> model.predict(processed_image)</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> prediction</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Path to the new image</span></span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>image_path <span class="op">=</span> <span class="st">&quot;C:/Users/affuk/Desktop/GP/normal.jpeg&quot;</span></span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> predict_image(image_path, model)</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Output prediction</span></span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> prediction[<span class="dv">0</span>, <span class="dv">0</span>] <span class="op">&gt;=</span> <span class="fl">0.5</span>:</span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The image is predicted to be Pneumonia.&quot;</span>)</span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The image is predicted to be Normal.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step
+The image is predicted to be Normal.
+</code></pre>
+</div>
+</div>
+<div id="3e985548" class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_image(image_path):</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(image_path, <span class="st">&#39;rb&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>        content <span class="op">=</span> f.read()</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> Image.<span class="bu">open</span>(io.BytesIO(content))</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> image.resize((<span class="dv">200</span>, <span class="dv">200</span>)).convert(<span class="st">&#39;L&#39;</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    image_array <span class="op">=</span> np.array(image) <span class="op">/</span> <span class="fl">255.0</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>    image_array <span class="op">=</span> image_array.reshape((<span class="dv">1</span>, <span class="dv">200</span>, <span class="dv">200</span>, <span class="dv">1</span>))  <span class="co"># Reshape for model (adding batch dimension)</span></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> image_array</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict_image(image_path, model):</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>    processed_image <span class="op">=</span> preprocess_image(image_path)</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>    prediction <span class="op">=</span> model.predict(processed_image)</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> prediction</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Path to the new image</span></span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>image_path <span class="op">=</span> <span class="st">&quot;C:/Users/affuk/Desktop/GP/pneumonia.jpeg&quot;</span></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> predict_image(image_path, model)</span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Output prediction</span></span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> prediction[<span class="dv">0</span>, <span class="dv">0</span>] <span class="op">&gt;=</span> <span class="fl">0.5</span>:</span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The image is predicted to be Pneumonia.&quot;</span>)</span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The image is predicted to be Normal.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 47ms/step
+The image is predicted to be Pneumonia.
+</code></pre>
+</div>
+</div>
+<div id="1a005f58" class="cell code">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
