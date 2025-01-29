@@ -1,6 +1,6 @@
 # X-Ray Predictive Analytics for Pneumonia Diagnosis Utilizing AI and Big Data  
 
-![X-Ray Analysis]([https://your-image-url.com/xray_analysis.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fchest-x-rays-pneumonia-detection-using-convolutional-neural-network-63d6ec2d1dee&psig=AOvVaw1r5hmamr8vB6pOaD6ChhKj&ust=1738211753061000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPi_qMGNmosDFQAAAAAdAAAAABAP))
+![X-Ray Analysis](https://miro.medium.com/v2/resize:fit:1400/1*caVi5_pTsarvYlqkarijOg.png))
 
 
 ## Overview  
