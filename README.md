@@ -15,9 +15,6 @@ The dataset consists of chest X-ray images, labeled as **pneumonia** or **normal
 - **Training:** Optimized using Adam optimizer with cross-entropy loss  
 - **Evaluation:** Performance measured via accuracy, precision, recall, and F1-score  
 
-[View X-Ray Analysis Report](vertopal.com_X-Ray Predictive Analytics for Pneumonia Diagnosis Utilizing AI and Big Data (1).pdf)
-
-
 ## Installation  
 Clone the repository and install dependencies:  
 ```bash
